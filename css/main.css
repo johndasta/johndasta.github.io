@@ -85,7 +85,7 @@ a:hover{
 #Header {
   width: 100%;
   margin: 0;
-  height: 450px;
+  height: 380px;
 }
 
 #Headline{
@@ -243,4 +243,13 @@ label{
   background: #0F54A7;
   color:rgba(255,255,255,0.7);
 
+}
+
+
+.portfolioBlock{
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(42deg, #E94A87 0%, #FB0966 100%);
+  box-shadow: 0 5px 9px 0 rgba(13,13,13,0.50);
+  margin-bottom: 100px;
 }

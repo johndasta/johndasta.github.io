@@ -65,6 +65,11 @@ animation-delay: 1.2s;
 -moz-animation-delay: 1.25s;
 animation-delay: 1.25s;
 
+}
+.fadeSlide.four {
+-webkit-animation-delay: 1.3s;
+-moz-animation-delay: 1.3s;
+animation-delay: 1.3s;
 
 }
 
