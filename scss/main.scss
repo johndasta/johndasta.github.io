@@ -1,0 +1,246 @@
+@import './utils/normalize.scss';
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #23282E;
+  background-image: url(images/Landing_bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 120px;
+  color: #FFFFFF;
+  margin: 0;
+  letter-spacing: 0.46px;
+  line-height: 1;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  color: #FFFFFF;
+  margin: 0;
+  letter-spacing: -1.22px;
+  line-height: 1;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 32px;
+  color: #FFFFFF;
+  margin: 0;
+  padding-top: 10px;
+  line-height: 1;
+}
+
+.Contain {
+  width: 1240px;
+  height: 100%;
+  // background-color: white;
+  margin: auto;
+}
+
+.sectionHeader{
+  padding: 50px 0px 50px 0px;
+}
+#TopNav {
+  height: 121px;
+  width: 100%;
+  border-color: rgb(155, 255, 255);
+}
+#logoBlock{
+  height: auto;
+  width: auto;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  float: left;
+}
+
+#navLinks{
+  float: right;
+  padding-top: 50px;
+  margin: 0;
+}
+#navLinks li{
+  display: inline;
+  padding: 20px;
+}
+#navLinks a{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #212334;
+}
+#Header {
+  width: 100%;
+  margin: 0;
+  height: 450px;
+}
+
+#Headline{
+  height: auto;
+  margin-top: 150px;
+}
+
+
+
+.standardbtn{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  width: auto;
+  user-select: none;
+  background: #F7B114;
+  border-radius: 100px;
+  color: #ffffff;
+  padding: 18px 60px 18px 60px;
+  font-size: 32px;
+  margin-top: 50px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all .3s cubic-bezier(0.26, 0.69, 0.55, 1);
+  -webkit-box-shadow: 0px 20px 46px -16px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 20px 46px -16px rgba(0,0,0,0.6);
+  box-shadow: 0px 20px 46px -16px rgba(0,0,0,0.6);
+}
+
+.standardbtn:hover{
+  transform: scale(1.05) translate(0,-3px);
+  -webkit-box-shadow: 0px 20px 105px -5px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 20px 105px -5px rgba(0,0,0,0.6);
+  box-shadow: 0px 20px 105px -5px rgba(0,0,0,0.6);
+}
+
+.standardbtn:active{
+  transform: scale(1.01);
+  background: #E3A317;
+  color:rgba(255,255,255,0.7);
+  -webkit-box-shadow: 0px 20px 46px -16px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 20px 46px -16px rgba(0,0,0,0.6);
+  box-shadow: 0px 20px 46px -16px rgba(0,0,0,0.6);
+  transform: translate(0,-3px);
+}
+
+#Skills{
+  background: #0F67D1;
+  width: 100%;
+  height: 500px;
+}
+
+
+#Experience{
+  background: #FFFFFF;
+  width: 100%;
+  height: 500px;
+}
+
+#Experience h2{
+  color: #23282E;
+}
+
+
+#Contact{
+  background: #F7B114;
+  width: 100%;
+  height: auto;
+  min-height:725px;
+  background-image: url(images/footerlogo.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+
+input{
+    width: 100%;
+    padding: 10px 0 20px 0;
+    margin: 0 0 15px 0;
+    display: block;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    /* Font: */
+    font-family: Roboto-Light;
+    font-size: 42px;
+    color: #FFFFFF;
+    letter-spacing: -1.38px;
+}
+
+/* do not group these rules */
+*::-webkit-input-placeholder {
+    color: #FAD072;
+}
+*:-moz-placeholder {
+    /* FF 4-18 */
+    color: #FAD072;
+}
+*::-moz-placeholder {
+    /* FF 19+ */
+    color: #FAD072;
+}
+*:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #FAD072;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:-webkit-autofill {
+    background-color: white !important;
+}
+
+
+
+textarea{
+    width: 100%;
+    height: auto;
+    padding: 10px 0 0  0;
+    margin: 0 0 40px 0;
+    display: block;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    overflow: hidden;
+    /* Font: */
+    font-family: Roboto-Light;
+    font-size: 42px;
+    color: #FFFFFF;
+    letter-spacing: -1.38px;
+}
+textarea:focus {
+    outline: none;
+}
+
+
+
+label{
+    /* Message: */
+    font-family: Roboto-Black;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.blue{
+  background: #0F67D1;
+  color: #ffffff;
+  margin-bottom: 50px;
+
+}
+
+.blue:active{
+  transform: scale(1.01);
+  background: #0F54A7;
+  color:rgba(255,255,255,0.7);
+
+}

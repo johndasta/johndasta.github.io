@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="scss/main.scss" />
+  <link rel="stylesheet" href="scss/animations.css" />
+  <link rel="stylesheet" href="scss/flexboxgrid.css" />
+  <title>John Dasta - Designer </title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src='js/index.js'></script>
+</head>
+
+<body>
+  <div id="TopNav">
+    <div class="Contain">
+      <div id = "logoBlock">
+        <img src= "scss/images/dcoLogo.svg">
+      </div>
+      <ul id = "navLinks">
+        <li class="navLinkItem fadeSlide one"><a href="default.asp">WORK</a></li>
+        <li class="navLinkItem fadeSlide one "><a href="news.asp">SKILLS</a></li>
+        <li class="navLinkItem fadeSlide one"><a href="contact.asp" >RESUME</a></li>
+        <li class="navLinkItem fadeSlide one"><a href="#Contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div id = "Header">
+    <div class="Contain">
+      <div id = "Headline">
+        <h1 class="fadeSlide one">John Dasta</h1>
+        <h3 class="fadeSlide two">Product Designer @ Under Armour. Dog Dad. Sports Lover.</h3>
+        <div class="fadeSlide three"> <div class="standardbtn" id = "hitmeup">Hit Me Up</div> </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id = "Skills">
+    <div class="Contain">
+      <div class = "sectionHeader">
+          <h2> My Skills </h2>
+      </div>
+    </div>
+  </div>
+
+
+  <div id = "Experience">
+    <div class="Contain">
+      <div class = "sectionHeader">
+          <h2> My Experience </h2>
+      </div>
+    </div>
+  </div>
+
+  <div id = "Contact">
+    <div class="Contain">
+      <div class = "sectionHeader">
+          <h2> Let's Chat </h2>
+      </div>
+      <form action="https://formspree.io/johndasta13@gmail.com" method="POST" autocomplete="off">
+
+        <label>Your Email</label>
+        <input type="email" name="_replyto" placeholder="How can I reach you?">
+
+        <label>Message</label>
+        <textarea name="message"  id="messagearea" placeholder="What do you want to build together?"></textarea>
+        <input type="submit" value="Send" class="standardbtn blue">
+
+        <script>
+            $("#messagearea").autogrow();
+        </script>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>
