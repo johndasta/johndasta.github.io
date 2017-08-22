@@ -1,0 +1,59 @@
+body {
+  background-size: 300%;
+  background-position:-200px -25px;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.Contain {
+  padding:20px;
+  margin: 0px;
+}
+
+#logoBlock{
+  margin-top: 10px;
+}
+h1 {
+  font-size: 60px;
+  line-height: .9;
+}
+
+h3{
+  font-size: 26px;
+  line-height: 1.2;
+  padding-top: 15px;
+}
+
+#navLinks{
+  display: none;
+}
+
+
+#Headline{
+  margin-top: 180px;
+}
+
+#Headline h3{
+  content: "Hide";
+  margin-right: 60px;
+}
+
+.mobileonly{
+  display: block;
+}
+.webonly{
+  display: none;
+}
+
+.standardbtn{
+  color: #ffffff;
+  padding: 15px 40px 15px 40px;
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+#Projects{
+  padding-top: 30px;
+}
