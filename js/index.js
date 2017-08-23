@@ -1,22 +1,21 @@
-const cats = ['Olive', 'Nova'];
-console.log('THE CLOWNS ARE COMING FOR YOU');
+var delay = 3000 // 1000 miliseconds = 1 second
+$(document).ready(function(){
+  $(window).on('load', function() {
+    setTimeout(function(){
+      $('body').addClass('ready')
+      $('.spinner-wrapper').fadeOut();
+    }, delay)
+  });
+})
 
-setTimeout(() => {
-  console.log(
-    "%c 🤡🔪 WE'RE 🤡🔪 HERE 🤡🔪",
-    'color: #D7263D; font-size: 32px',
-  );
-}, 3000);
 
-
-(function($)
-{
+(function($){
     /**
      * Auto-growing textareas; technique ripped from Facebook
-     *
-     *
      * http://github.com/jaz303/jquery-grab-bag/tree/master/javascripts/jquery.autogrow-textarea.js
      */
+
+
     $.fn.autogrow = function(options)
     {
         return this.filter('textarea').each(function()
