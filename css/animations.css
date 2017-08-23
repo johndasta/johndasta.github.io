@@ -87,8 +87,9 @@ animation-delay: 1.3s;
   background-color: #333;
 
   position: absolute;
-  top: 48%;
-  left: 48%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% -50%);
   -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
   animation: sk-rotateplane 1.2s infinite ease-in-out;
 }
@@ -114,13 +115,13 @@ animation-delay: 1.3s;
 
 
 .spinner-wrapper {
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-background-color: #ff6347;
-z-index: 999999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ff6347;
+  z-index: 999999;
 }
 
 
