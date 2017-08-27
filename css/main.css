@@ -310,7 +310,7 @@ label{
 .comingsoontext{
 
   opacity: 0.45;
-  font-family: Roboto-Regular;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #6D5724;
@@ -320,7 +320,7 @@ label{
 
 .emailaddress{
 
-  font-family: Roboto-Black;
+  font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 27px;
   color: #FFFFFF;
