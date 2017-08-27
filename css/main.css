@@ -3,11 +3,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #23282E;
-  background-image: url(images/Landing_bg.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: top;
+  background-color: #F7B114;
   margin:0;
 }
 
@@ -280,4 +276,55 @@ label{
 .logobox img{
   margin: 30px auto 30px auto;
   display: block;
+}
+
+
+
+.comingsoonbox{
+  height: 300px;
+  width: 50%;
+  padding: 30px;
+  min-width: 320px;
+  max-width: 430px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.logo{
+  margin-bottom: 20px;
+}
+.social {
+  margin-top: 1rem;
+  width: 100%;
+  padding-top: 40px;
+}
+.social > a {
+  display: block;
+  float: left;
+  padding-right: 50px;
+}
+.social > a:hover{
+  opacity: .6;
+  cursor: pointer;
+}
+
+.comingsoontext{
+
+  opacity: 0.45;
+  font-family: Roboto-Regular;
+  font-size: 18px;
+  color: #6D5724;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.emailaddress{
+
+  font-family: Roboto-Black;
+  font-size: 27px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
 }
