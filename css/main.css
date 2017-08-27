@@ -311,6 +311,7 @@ label{
 
   opacity: 0.45;
   font-family: Roboto-Regular;
+  font-weight: 400;
   font-size: 18px;
   color: #6D5724;
   letter-spacing: 0;
@@ -320,6 +321,7 @@ label{
 .emailaddress{
 
   font-family: Roboto-Black;
+  font-weight: 900;
   font-size: 27px;
   color: #FFFFFF;
   letter-spacing: 0;
