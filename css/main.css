@@ -161,7 +161,8 @@ a:hover{
 #Experience{
   background: #FFFFFF;
   width: 100%;
-  height: 500px;
+  height: auto;
+  padding-bottom: 55px;
 }
 
 #Experience h2{
@@ -280,4 +281,13 @@ label{
 .logobox img{
   margin: 30px auto 30px auto;
   display: block;
+}
+
+.center{
+  margin: auto;
+  display: block;
+}
+.exprow{
+  margin-bottom: 80px;
+  margin-top: 70px;
 }
