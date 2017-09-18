@@ -272,7 +272,7 @@ label{
 
 .portfolioBlock{
   width: 100%;
-  height: 300px;
+  height: auto;
   background-image: linear-gradient(42deg, #E94A87 0%, #FB0966 100%);
   box-shadow: 0 5px 9px 0 rgba(13,13,13,0.50);
   margin-bottom: 100px;
@@ -290,4 +290,8 @@ label{
 .exprow{
   margin-bottom: 80px;
   margin-top: 70px;
+}
+
+.projectCell{
+  width: 100%;
 }
